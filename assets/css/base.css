@@ -1,0 +1,137 @@
+/* ==================================================
+
+--- 01 TYPOGRAPHY SYSTEM
+
+  1. Font Sizes in PX
+  ----- 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  Default browser font size is 16px. We will set our font-size to 10px and to make it responsive. *10 / 16 = 0.625 * 100 = 62.5%
+
+  2. Font Weights
+  ----- Default: 400
+  ----- Medium: 500
+  ----- Semi-bold: 600
+  ----- Bold: 700
+
+  3. Line Heights
+  ----- Default: 1
+  ----- Small: 
+  ----- Medium: 
+  ----- Large: 1.8
+  ----- Paragraph Default: 1.6
+  
+--- 02 COLOR SYSTEM
+  
+  1. Primary Color - #1864ab 
+  2. Tints - #E8F0F7
+  3. Shades - #071E33, #135089
+  4. Greys - #444, #555, #d3d3d3
+
+--- 03 IMAGES AND ILLUSTRATIONS
+--- 04 ICONS
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+  1. Default: 5px
+  2. Small: 11px
+  3. Medium: 100px
+  4. Round: 50%
+
+--- 07 WHITESPACES
+
+  1. Spacing in PX
+  ----- 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+
+================================================== */
+
+/****************************/
+/*        DEFAULTS          */
+/****************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  color: #444;
+  line-height: 1;
+}
+
+/****************************/
+/*    REUSABLE COMPONENTS   */
+/****************************/
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  color: #444;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  color: #1864ab;
+  letter-spacing: 0.85px;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.6rem 3.2rem;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.btn--primary:link,
+.btn--primary:visited {
+  background-color: #1864ab;
+  color: #fff;
+}
+
+.btn--primary:hover,
+.btn--primary:active {
+  background-color: #135089;
+}
+
+.btn--secondary:link,
+.btn--secondary:visited {
+  color: #fff;
+}
+
+/* .btn--secondary:hover,
+.btn--secondary:active {
+} */

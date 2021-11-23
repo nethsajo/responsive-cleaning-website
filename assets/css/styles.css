@@ -1,0 +1,175 @@
+/****************************/
+/*          HEADER          */
+/****************************/
+
+.header {
+  background-color: #e8f0f7;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 4.8rem;
+  height: 8rem;
+}
+
+.logo {
+  font-size: 3rem;
+  width: auto;
+}
+
+/****************************/
+/*        NAVIGATION        */
+/****************************/
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: #135089;
+}
+
+/****************************/
+/*      HERO SECTION        */
+/****************************/
+.section-hero {
+  padding: 4.8rem 0 9.8rem 0;
+  background-color: #e8f0f7;
+}
+
+.hero {
+  max-width: 130rem;
+  padding: 0 4.8rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-img-box::before,
+.hero-img-box::after {
+  content: "";
+  width: 55%;
+  height: 55%;
+  position: absolute;
+  padding-bottom: 35%;
+  border-radius: 5px;
+}
+
+.hero-img-box::before {
+  background-color: #1864ab;
+  top: 5%;
+  right: 20%;
+}
+
+.hero-img-box::after {
+  background-color: #bad1e6;
+  top: 8%;
+  left: 20%;
+}
+
+.hero-img {
+  width: 55%;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/****************************/
+/*     FEATURED SECTION     */
+/****************************/
+
+.section-featured {
+  padding: 4.8rem 0;
+}
+
+.heading-featured-in {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.85px;
+  margin-bottom: 3.6rem;
+  color: #555;
+}
+
+.featured-logos {
+  display: flex;
+  justify-content: center;
+  gap: 6.4rem;
+}
+
+.featured-logo {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 40%;
+}
+
+/****************************/
+/*   HOW IT WORKS SECTION   */
+/****************************/
+.section-how-works {
+  padding: 8rem 0 9.6rem 0;
+}
+
+.step-box {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.step-number {
+  font-size: 9.8rem;
+  font-weight: 600;
+  color: #ddd;
+  width: 100%;
+  align-self: flex-start;
+}
+
+.step-title-box {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.step-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #1864ab;
+}
+
+.step-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.step-description {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
