@@ -10,6 +10,10 @@
   column-gap: 6.4rem;
 }
 
+.d-grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
 .d-flex-row {
   display: flex;
 }
@@ -39,6 +43,6 @@
   align-items: center;
 }
 
-.t-center {
-  text-align: center;
+.grid-center-h {
+  justify-content: center;
 }
