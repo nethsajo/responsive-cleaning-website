@@ -4,6 +4,12 @@
   margin: 0 auto;
 }
 
+.container-small {
+  max-width: 84rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
 .d-grid {
   display: grid;
   row-gap: 9.6rem;
