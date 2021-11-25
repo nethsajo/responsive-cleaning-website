@@ -24,7 +24,7 @@
   
   1. Primary Color - #1864ab 
   2. Tints - #E8F0F7, #bad1e6, #e7f5ff
-  3. Shades - #071E33, #135089
+  3. Shades - #071E33, #135089, #071e33
   4. Greys - #444, #555, #d3d3d3, #383838
 
 --- 03 IMAGES AND ILLUSTRATIONS
@@ -122,6 +122,7 @@ body {
   margin-bottom: 1.6rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -130,9 +131,15 @@ body {
   font-size: 2rem;
   font-weight: 600;
   border-radius: 100px;
+
+  /*For butons*/
+  cursor: pointer;
+  border: none;
+
   transition: all 0.3s;
 }
 
+.btn,
 .btn--primary:link,
 .btn--primary:visited {
   background-color: #1864ab;
@@ -148,6 +155,17 @@ body {
 .btn--secondary:visited {
   background-color: #e8f0f7;
   color: #fff;
+}
+
+.btn--form {
+  background-color: #114678;
+  color: #e7f5ff;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #135089;
 }
 
 /* .btn--secondary:hover,

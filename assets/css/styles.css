@@ -390,7 +390,7 @@
 .pricing-plan--deep {
   background-color: #e8f0f7;
   transform: scale(1.05, 1.11);
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1.2rem rgba(0, 0, 0, 0.05);
 }
 
 .plan-header {
@@ -437,4 +437,85 @@
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+}
+
+/****************************/
+/*    CONTACT SECTION       */
+/****************************/
+
+.section-contact {
+  padding: 3.2rem 0 6.4rem 0;
+}
+
+.contact-form {
+  background-color: #1864ab;
+  padding: 4.8rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  column-gap: 3.2rem;
+  row-gap: 2.4rem;
+  border-radius: 11px;
+  margin-bottom: 9.8rem;
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.05);
+}
+
+.input-grp label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 1.2rem;
+}
+
+.input-grp input,
+.input-grp select {
+  width: 100%;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.8rem;
+  padding: 1.2rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.01);
+}
+
+.contact-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.2rem;
+  row-gap: 9.6rem;
+}
+
+.contact-card {
+  border: 2px solid #e8f0f7;
+  border-radius: 11px;
+  padding: 3.2rem 2.4rem;
+
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.contact-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  min-width: 2.4rem;
+  min-height: 2.4rem;
+  background-color: #1864ab;
+  color: #e7f5ff;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+.contact-type {
+  font-size: 3rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  align-self: end;
+}
+
+.contact-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
