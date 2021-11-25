@@ -23,13 +23,19 @@
 --- 02 COLOR SYSTEM
   
   1. Primary Color - #1864ab 
-  2. Tints - #E8F0F7, #bad1e6
+  2. Tints - #E8F0F7, #bad1e6, #e7f5ff
   3. Shades - #071E33, #135089
-  4. Greys - #444, #555, #d3d3d3
+  4. Greys - #444, #555, #d3d3d3, #383838
 
 --- 03 IMAGES AND ILLUSTRATIONS
+  1. Pexels
+  2. unsplash
 --- 04 ICONS
+  1. ionicons
+
 --- 05 SHADOWS
+  1. Light 
+  2. Dark 
 
 --- 06 BORDER-RADIUS
   1. Default: 5px
@@ -105,13 +111,16 @@ body {
   letter-spacing: 0.85px;
 }
 
-/* .sub-heading::before {
+.sub-heading::before {
   content: "";
-  width: 3rem;
-  height: 1px;
-  background-color: #555;
-  display: inline-flex;
-} */
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background-color: #135089;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1.6rem;
+}
 
 .btn:link,
 .btn:visited {
@@ -137,6 +146,7 @@ body {
 
 .btn--secondary:link,
 .btn--secondary:visited {
+  background-color: #e8f0f7;
   color: #fff;
 }
 
@@ -158,6 +168,27 @@ body {
 .link:active {
   color: #135089;
   transform: translateY(-2px);
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.list-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #1864ab;
 }
 
 /****************************/
