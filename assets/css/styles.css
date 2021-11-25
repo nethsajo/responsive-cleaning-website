@@ -18,6 +18,7 @@
 
 .logo {
   font-size: 3rem;
+  color: #555;
   width: auto;
 }
 
@@ -444,7 +445,7 @@
 /****************************/
 
 .section-contact {
-  padding: 3.2rem 0 6.4rem 0;
+  padding: 3.2rem 0 8rem 0;
 }
 
 .contact-form {
@@ -457,7 +458,7 @@
   row-gap: 2.4rem;
   border-radius: 11px;
   margin-bottom: 9.8rem;
-  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 }
 
 .input-grp label {
@@ -518,4 +519,58 @@
 .contact-text {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+/****************************/
+/*          FOOTER          */
+/****************************/
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.branding-logo {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+}
+
+.branding-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  font-size: 1.8rem;
+  color: #767676;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.footer-heading {
+  color: #555;
+  font-size: 1.8rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
 }
