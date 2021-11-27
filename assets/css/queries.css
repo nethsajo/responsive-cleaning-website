@@ -88,8 +88,18 @@
     height: 2.4rem;
   }
 
-  .grid-col--3 {
+  .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery-item:nth-child(1),
+  .gallery-item:nth-child(2),
+  .gallery-item:nth-child(3),
+  .gallery-item:nth-child(4),
+  .gallery-item:nth-child(5),
+  .gallery-item:nth-child(6) {
+    grid-column: unset;
+    grid-row: unset;
   }
 
   .pricing-container {
@@ -165,10 +175,6 @@
     font-size: 3rem;
   }
 
-  .branding-col {
-    grid-column: 1/-1;
-  }
-
   .contact-type {
     font-size: 2.4rem;
   }
@@ -180,6 +186,14 @@
 @media (max-width: 44em) {
   .grid-col--2 {
     grid-template-columns: 1fr;
+  }
+
+  .grid-col--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
   }
 
   .services-img img {
@@ -211,6 +225,10 @@
   .contact-card-container {
     grid-template-columns: 1fr;
     row-gap: 4.8rem;
+  }
+
+  .branding-col {
+    grid-column: 1/-1;
   }
 }
 
