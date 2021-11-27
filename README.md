@@ -17,3 +17,5 @@ My first project after completing the "Build Responsive Real-World Websites with
 ## Screenshots
 
 ![Desktop](./screenshots/desktop.png)
+![Tablet](./screenshots/tablet.png)
+![Mobile](./screenshots/mobile.png)
