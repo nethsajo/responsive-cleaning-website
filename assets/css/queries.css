@@ -1,0 +1,274 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/* 10px / 16px * 100 = 62.5% */
+
+/****************************/
+/*        BELOW 1344PX      */
+/****************************/
+@media (max-width: 84em) {
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+
+/****************************/
+/*        BELOW 1200PX      */
+/****************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .d-grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+
+  .nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .heading-featured-in {
+    font-size: 2.4rem;
+  }
+
+  .housekeeper-heading {
+    font-size: 2.6rem;
+    line-height: 1.2;
+  }
+}
+
+/****************************/
+/*        BELOW 944PX       */
+/****************************/
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-image-box {
+    text-align: center;
+  }
+
+  .hero-img {
+    width: 45%;
+  }
+
+  .hero-img-box::before,
+  .hero-img-box::after {
+    width: 45%;
+    height: 45%;
+  }
+
+  .hero-img-box::before {
+    right: 25%;
+  }
+
+  .hero-img-box::after {
+    left: 25%;
+  }
+
+  .featured-logo {
+    height: 2.4rem;
+  }
+
+  .grid-col--3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .pricing-container {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.2rem;
+  }
+
+  .pricing-plan--deep {
+    transform: scale(1, 1);
+  }
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 9999;
+  }
+
+  .nav {
+    background-color: rgba(255, 255, 255, 0.9);
+    /* Chrome */
+    backdrop-filter: blur(5px);
+    /* For Safari */
+    -webkit-backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transform: translateX(100%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease-in;
+    z-index: 10;
+
+    /* Hide Navigation */
+
+    /* Allows NO transition at all */
+    /* display: none */
+
+    /* 1. Hide it visually */
+    opacity: 0;
+
+    /* 2. Make it unaccessible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3. Hide it from screen readers */
+    visibility: hidden;
+  }
+
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .nav-link:link,
+  .nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .branding-col {
+    grid-column: 1/-1;
+  }
+
+  .contact-type {
+    font-size: 2.4rem;
+  }
+}
+
+/****************************/
+/*        BELOW 704PX       */
+/****************************/
+@media (max-width: 44em) {
+  .grid-col--2 {
+    grid-template-columns: 1fr;
+  }
+
+  .services-img img {
+    width: 60%;
+  }
+
+  .service-icon {
+    padding: 1.2rem;
+  }
+
+  .housekeeper {
+    width: 70%;
+    justify-self: center;
+  }
+
+  .housekeeper--info {
+    text-align: center;
+  }
+
+  .testimonial-left-col,
+  .testimonial-right-col {
+    width: 100%;
+  }
+
+  .testimonial-left-col {
+    justify-self: start;
+  }
+
+  .contact-card-container {
+    grid-template-columns: 1fr;
+    row-gap: 4.8rem;
+  }
+}
+
+/****************************/
+/*        BELOW 576PX       */
+/****************************/
+@media (max-width: 36em) {
+  html {
+    font-size: 43.75%;
+  }
+
+  .featured-container {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-featured-in {
+    text-align: center;
+  }
+
+  .grid-col--3,
+  .pricing-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-right-col {
+    margin-top: 0;
+  }
+
+  .contact-form {
+    grid-template-columns: 1fr;
+  }
+}
+
+/****************************/
+/*        BELOW 400PX       */
+/****************************/
+@media (max-width: 25em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .header-container {
+    padding: 0 2.4rem;
+  }
+
+  .hero {
+    padding: 0 4rem;
+  }
+
+  .featured-logos-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .housekeeper {
+    width: 90%;
+  }
+}

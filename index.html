@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./assets/css/base.css" />
     <link rel="stylesheet" href="./assets/css/layout.css" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/queries.css" />
     <title>iClean &mdash; Your all in one cleaning services</title>
   </head>
   <body>
@@ -33,6 +34,10 @@
             <li><a class="nav-link" href="#">Contact</a></li>
           </ul>
         </nav>
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
       </div>
     </header>
 
@@ -43,7 +48,7 @@
         <div class="hero">
           <div class="hero-text-box">
             <h1 class="heading-primary">
-              We make homes clean, safe and healthy
+              We clean deeply so you can rest easy. We make homes healthy.
             </h1>
             <p class="hero-description">
               Your most trusted partner in cleaning. We clean, you relax. The
@@ -52,7 +57,6 @@
             </p>
             <a href="#" class="btn btn--primary">Get Started &rarr;</a>
           </div>
-
           <div class="hero-img-box">
             <img
               src="./assets/images/hero.jpg"
@@ -62,70 +66,68 @@
           </div>
         </div>
       </section>
-
       <!-- FEATURED IN SECTION -->
       <section class="section-featured">
-        <div class="container featured-container">
-          <div class="featured-text-box">
-            <h2 class="heading-featured-in">
-              The world's best companies featured iClean
-            </h2>
-            <a href="#" class="link">Learn more &rarr;</a>
-          </div>
-
-          <div class="featured-logos-box">
-            <img
-              src="./assets/images/featured/business-insider.png"
-              alt="Business Insider"
-              class="featured-logo"
-            />
-            <img
-              src="./assets/images/featured/the-new-york-times.png"
-              alt="New York Times"
-              class="featured-logo"
-            />
-            <img
-              src="./assets/images/featured/forbes.png"
-              alt="Forbes"
-              class="featured-logo"
-            />
-            <img
-              src="./assets/images/featured/usa-today.png"
-              alt="USA Today"
-              class="featured-logo"
-            />
-            <img
-              src="./assets/images/featured/techcrunch.png"
-              alt="Techcrunch"
-              class="featured-logo"
-            />
-            <img
-              src="./assets/images/featured/business-insider.png"
-              alt="Business Insider"
-              class="featured-logo"
-            />
+        <div class="container">
+          <div class="featured-container">
+            <div class="featured-text-box">
+              <h2 class="heading-featured-in">
+                The world's best companies featured iClean
+              </h2>
+              <!-- <a href="#" class="link">Learn more &rarr;</a> -->
+            </div>
+            <div class="featured-logos-box">
+              <img
+                src="./assets/images/featured/business-insider.png"
+                alt="Business Insider"
+                class="featured-logo"
+              />
+              <img
+                src="./assets/images/featured/the-new-york-times.png"
+                alt="New York Times"
+                class="featured-logo"
+              />
+              <img
+                src="./assets/images/featured/forbes.png"
+                alt="Forbes"
+                class="featured-logo"
+              />
+              <img
+                src="./assets/images/featured/usa-today.png"
+                alt="USA Today"
+                class="featured-logo"
+              />
+              <img
+                src="./assets/images/featured/techcrunch.png"
+                alt="Techcrunch"
+                class="featured-logo"
+              />
+              <img
+                src="./assets/images/featured/business-insider.png"
+                alt="Business Insider"
+                class="featured-logo"
+              />
+            </div>
           </div>
         </div>
       </section>
-
       <!-- HOW IT WORKS SECTION -->
       <section class="section-how-works">
         <div class="container t-center">
           <span class="sub-heading">How it works</span>
           <h2 class="heading-secondary">Get your day back. It's easy</h2>
         </div>
-        <div class="container d-grid grid-col--2">
+        <div class="container d-grid grid-col--3">
           <div class="step-box">
-            <p class="step-number">01&nbsp;</p>
+            <p class="step-number">01</p>
             <div class="step-box-details">
               <div class="step-title-box">
                 <ion-icon name="calendar-outline" class="step-icon"></ion-icon>
-                <h3 class="step-title">Yow</h3>
+                <h3 class="step-title">Book your schedule</h3>
               </div>
               <p class="step-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-                consequatur optio illo cumque deleniti inventore quo iste?
-                Possimus, distinctio! Architecto.
+                Select the days, times and cleaning plans that best suit your
+                life.
               </p>
             </div>
           </div>
@@ -133,13 +135,12 @@
             <p class="step-number">02</p>
             <div class="step-box-details">
               <div class="step-title-box">
-                <ion-icon name="lock-open-outline" class="step-icon"></ion-icon>
-                <h3 class="step-title">Yow</h3>
+                <ion-icon name="happy-outline" class="step-icon"></ion-icon>
+                <h3 class="step-title">Book a housekeeper</h3>
               </div>
               <p class="step-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis at rem maiores odio saepe voluptatum eaque culpa
-                sunt inventore aspernatur.
+                Select from a variety of background-checked and experienced
+                housekeepers in your neighborhood.
               </p>
             </div>
           </div>
@@ -148,39 +149,23 @@
             <div class="step-box-details">
               <div class="step-title-box">
                 <ion-icon name="sparkles-outline" class="step-icon"></ion-icon>
-                <h3 class="step-title">Yow</h3>
+                <h3 class="step-title">Comeback to clean room</h3>
               </div>
               <p class="step-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis at rem maiores odio saepe voluptatum eaque culpa
-                sunt inventore aspernatur.
-              </p>
-            </div>
-          </div>
-          <div class="step-box">
-            <p class="step-number">04</p>
-            <div class="step-box-details">
-              <div class="step-title-box">
-                <ion-icon name="happy-outline" class="step-icon"></ion-icon>
-                <h3 class="step-title">Yow</h3>
-              </div>
-              <p class="step-description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Perferendis at rem maiores odio saepe voluptatum eaque culpa
-                sunt inventore aspernatur.
+                Enjoy cleanings that keep your home or establishments
+                consistently looking its best.
               </p>
             </div>
           </div>
         </div>
       </section>
-
       <!-- SERVICES SECTION -->
       <section class="section-services">
         <div class="container t-center">
           <span class="sub-heading">Services</span>
           <h2 class="heading-secondary">We clean every types of room</h2>
         </div>
-        <div class="container d-grid grid-col--2 margin-bottom-md">
+        <div class="container d-grid grid-col--2">
           <div class="services-img">
             <img
               src="./assets/images/gallery/service.jpg"
@@ -193,13 +178,11 @@
               <div class="service-details">
                 <h3 class="service-title">Home Cleaning Service</h3>
                 <p class="service-description">
-                  A clean house is the start of a healthy and happy home. We
-                  have cleaning packages to suit your home's needs depending on
-                  size, comprehensiveness and regularity.
+                  We have cleaning packages to suit your home's needs depending
+                  on size, comprehensiveness and regularity.
                 </p>
               </div>
             </div>
-
             <div class="services-box">
               <ion-icon
                 name="briefcase-outline"
@@ -210,8 +193,6 @@
                 <p class="service-description">
                   Our business cleaning service is tailored to fit your
                   business’ needs to ensure a sanitized and safe workspace.
-                  Cleaners are well-equipped to throughly clean commercial
-                  spaces of all shapes and sizes.
                 </p>
               </div>
             </div>
@@ -261,7 +242,6 @@
           </div>
         </div>
       </section>
-
       <!-- TESTIMONIALS SECTION -->
       <section class="section-testimonials">
         <div class="container-small t-center">
@@ -387,7 +367,6 @@
           </div>
         </div>
       </section>
-
       <!-- PRICING SECTION -->
       <section class="section-pricing">
         <div class="container-small t-center">
@@ -397,8 +376,7 @@
             that's right for you
           </h2>
         </div>
-
-        <div class="container margin-bottom-lg">
+        <div class="container margin-bottom-md">
           <div class="pricing-container">
             <div class="pricing-plan pricing-plan--standard">
               <header class="plan-header">
@@ -484,7 +462,7 @@
                 </li>
                 <li class="list-item">
                   <ion-icon name="happy-outline" class="list-icon"></ion-icon>
-                  <span>Starts with 2 happy helpers</span>
+                  <span>Starts with 2 iClean helpers</span>
                 </li>
                 <li class="list-item">
                   <ion-icon name="time-outline" class="list-icon"></ion-icon>
@@ -510,7 +488,6 @@
           </p>
         </div>
       </section>
-
       <!-- CONTACT SECTION -->
       <section class="section-contact">
         <div class="container-small t-center">
@@ -518,7 +495,7 @@
             Get in touch with us
           </h2>
         </div>
-        <div class="container-small">
+        <div class="container">
           <form class="contact-form" name="contact">
             <div class="input-grp">
               <label for="first_name">First Name</label>
@@ -595,7 +572,6 @@
         </div>
       </section>
     </main>
-
     <!-- FOOTER -->
     <footer class="footer">
       <div class="container d-grid grid-col--3">
