@@ -27,11 +27,11 @@
         <h2 class="logo">iClean</h2>
         <nav class="nav">
           <ul class="nav-list">
-            <li><a class="nav-link" href="#">How it works</a></li>
-            <li><a class="nav-link" href="#">Services</a></li>
-            <li><a class="nav-link" href="#">Testimonials</a></li>
-            <li><a class="nav-link" href="#">Pricing</a></li>
-            <li><a class="nav-link" href="#">Contact</a></li>
+            <li><a class="nav-link" href="#how-works">How it works</a></li>
+            <li><a class="nav-link" href="#services">Services</a></li>
+            <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
           </ul>
         </nav>
         <button class="btn-mobile-nav">
@@ -112,7 +112,7 @@
         </div>
       </section>
       <!-- HOW IT WORKS SECTION -->
-      <section class="section-how-works">
+      <section class="section-how-works" id="how-works">
         <div class="container t-center">
           <span class="sub-heading">How it works</span>
           <h2 class="heading-secondary">Get your day back. It's easy</h2>
@@ -160,7 +160,7 @@
         </div>
       </section>
       <!-- SERVICES SECTION -->
-      <section class="section-services">
+      <section class="section-services" id="services">
         <div class="container t-center">
           <span class="sub-heading">Services</span>
           <h2 class="heading-secondary">We clean every types of room</h2>
@@ -285,7 +285,7 @@
         </div>
       </section>
       <!-- TESTIMONIALS SECTION -->
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="container-small t-center">
           <span class="sub-heading">Testimonials</span>
           <h2 class="heading-secondary">
@@ -410,7 +410,7 @@
         </div>
       </section>
       <!-- PRICING SECTION -->
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container-small t-center">
           <span class="sub-heading">Pricing</span>
           <h2 class="heading-secondary">
@@ -531,61 +531,59 @@
         </div>
       </section>
       <!-- CONTACT SECTION -->
-      <section class="section-contact">
-        <div class="container-small t-center">
-          <h2 class="heading-secondary margin-bottom-md">
-            Get in touch with us
-          </h2>
-        </div>
-        <div class="container">
-          <form class="contact-form" name="contact">
-            <div class="input-grp">
-              <label for="first_name">First Name</label>
-              <input
-                type="text"
-                name="first_name"
-                id="first_name"
-                placeholder="Your first name"
-              />
-            </div>
-            <div class="input-grp">
-              <label for="last_name">Last Name</label>
-              <input
-                type="text"
-                name="last_name"
-                id="last_name"
-                placeholder="Your last name"
-              />
-            </div>
-            <div class="input-grp">
-              <label for="email">Email</label>
-              <input
-                type="email"
-                name="email"
-                id="email"
-                placeholder="Your email address"
-              />
-            </div>
-            <div class="input-grp">
-              <label for="phone">Phone</label>
-              <input
-                type="text"
-                name="phone"
-                id="phone"
-                placeholder="Your phone number"
-              />
-            </div>
-            <div class="input-grp">
-              <label for="hear">Where do you see us?</label>
-              <select name="hear" id="hear">
-                <option value="">Select one</option>
-                <option value="friends">Friends and Family</option>
-                <option value="fb-ads">Facebook ads</option>
-                <option value="others">Others</option>
-              </select>
-            </div>
-            <button type="submit" class="btn btn--form">Submit</button>
-          </form>
+      <section class="section-contact" id="contact">
+        <div class="container-small margin-bottom-md">
+          <div class="cta-container">
+            <h2 class="contact-heading">Get in touch with us</h2>
+            <form class="contact-form" name="contact">
+              <div class="input-grp">
+                <label for="first_name">First Name</label>
+                <input
+                  type="text"
+                  name="first_name"
+                  id="first_name"
+                  placeholder="Your first name"
+                />
+              </div>
+              <div class="input-grp">
+                <label for="last_name">Last Name</label>
+                <input
+                  type="text"
+                  name="last_name"
+                  id="last_name"
+                  placeholder="Your last name"
+                />
+              </div>
+              <div class="input-grp">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your email address"
+                />
+              </div>
+              <div class="input-grp">
+                <label for="phone">Phone</label>
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="Your phone number"
+                />
+              </div>
+              <div class="input-grp">
+                <label for="hear">Where do you see us?</label>
+                <select name="hear" id="hear">
+                  <option value="">Select one</option>
+                  <option value="friends">Friends and Family</option>
+                  <option value="fb-ads">Facebook ads</option>
+                  <option value="others">Others</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn--form">Submit</button>
+            </form>
+          </div>
         </div>
         <div class="container">
           <div class="contact-card-container">
@@ -670,5 +668,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+    <script type="text/javascript" src="./assets/js/main.js"></script>
   </body>
 </html>
