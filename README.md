@@ -16,11 +16,11 @@ My first project after completing the "Build Responsive Real-World Websites with
 
 ## Screenshots
 
-\*\*Desktop
+**Desktop**
 ![Desktop](./screenshots/desktop.png)
 
-\*\*Tablet
+**Tablet**
 ![Tablet](./screenshots/tablet.png)
 
-\*\*Mobile
+**Mobile**
 ![Mobile](./screenshots/mobile.png)
