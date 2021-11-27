@@ -286,6 +286,10 @@
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .featured-logo {
+    height: 2rem;
+  }
+
   .housekeeper {
     width: 90%;
   }
