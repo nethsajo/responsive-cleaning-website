@@ -18,9 +18,7 @@
 }
 
 .logo {
-  font-size: 3rem;
-  color: #555;
-  width: auto;
+  height: 2.2rem;
 }
 
 /****************************/
@@ -190,7 +188,7 @@
 
 .step-box {
   position: relative;
-  box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 1.8rem rgba(0, 0, 0, 0.15);
   padding: 4.8rem 2.4rem 3.2rem 2.4rem;
   border-radius: 11px;
 }

@@ -15,3 +15,5 @@ My first project after completing the "Build Responsive Real-World Websites with
 - [Pexels](https://www.pexels.com/)
 
 ## Screenshots
+
+![Desktop](./screenshots/desktop.png)
