@@ -127,12 +127,12 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    transform: translateX(100%);
+    transform: translateY(-100%);
 
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in-out;
     z-index: 10;
 
     /* Hide Navigation */
@@ -154,7 +154,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {

@@ -209,6 +209,11 @@ body {
   color: #1864ab;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(186, 209, 230, 0.5);
+}
+
 /****************************/
 /*      HELPER CLASSES      */
 /****************************/
